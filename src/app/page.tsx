@@ -7,17 +7,19 @@ import vocabulary from "@/data/vocabulary.json";
 // Define TypeScript interfaces
 interface Question {
   word: string;
-  options: string[];
-  correct: number;
+  options: {
+    [key: string]: string;
+  };
+  correct: string;
 }
 
 interface SelectedAnswers {
-  [key: number]: number;
+  [key: number]: string;
 }
 
 const getDailyQuiz = (): Question[] => {
   const shuffled = [...vocabulary.questions].sort(() => 0.5 - Math.random());
-  return shuffled.slice(0, 5);
+  return shuffled.slice(0, 10);
 };
 
 export default function Home() {
@@ -61,8 +63,8 @@ export default function Home() {
     }
   }, []);
 
-  const handleAnswer = (optionIndex: number): void => {
-    setSelectedAnswers({ ...selectedAnswers, [currentQuestion]: optionIndex });
+  const handleAnswer = (optionLetter: string): void => {
+    setSelectedAnswers({ ...selectedAnswers, [currentQuestion]: optionLetter });
   };
 
   const nextQuestion = (): void => {
@@ -94,24 +96,24 @@ export default function Home() {
           <div className="mb-4">
             <span className="text-sm text-gray-500">Question {currentQuestion + 1} of {quiz.length}</span>
           </div>
-        <div className="flex">
-        <p className="font-medium text-lg mb-4">{quiz[currentQuestion].word}</p>
-          <Button
-            onClick={() => playPronunciation(quiz[currentQuestion].word)}
-            className="bg-blue-500 text-white px-2 py-1 text-sm ml-5 hover:bg-blue-600"
-          >
-           🔊
-          </Button>
-        </div>
+          <div className="flex">
+            <p className="font-medium text-lg mb-4">{quiz[currentQuestion].word}</p>
+            <Button
+              onClick={() => playPronunciation(quiz[currentQuestion].word)}
+              className="bg-blue-500 text-white px-2 py-1 text-sm ml-5 hover:bg-blue-600"
+            >
+              🔊
+            </Button>
+          </div>
           <div className="flex flex-col gap-2 mt-2">
-            {quiz[currentQuestion].options.map((option, optionIndex) => (
+            {Object.entries(quiz[currentQuestion].options).map(([letter, option]) => (
               <Button
-                key={optionIndex}
-                onClick={() => handleAnswer(optionIndex)}
-                variant={selectedAnswers[currentQuestion] === optionIndex ? "default" : "outline"}
+                key={letter}
+                onClick={() => handleAnswer(letter)}
+                variant={selectedAnswers[currentQuestion] === letter ? "default" : "outline"}
                 className="w-full justify-start text-left"
               >
-                {option}
+                {letter.toUpperCase()}. {option}
               </Button>
             ))}
           </div>

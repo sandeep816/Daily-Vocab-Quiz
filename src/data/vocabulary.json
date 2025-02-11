@@ -3,107 +3,262 @@
     {
       "id": 1,
       "word": "Ephemeral",
-      "options": [
-        "Lasting a short time",
-        "Highly intelligent",
-        "Extremely large",
-        "Visually appealing"
-      ],
-      "correct": 0,
+      "options": {
+        "a": "Highly intelligent",
+        "b": "Lasting a short time",
+        "c": "Visually appealing",
+        "d": "Extremely large"
+      },
+      "correct": "b",
       "explanation": "Ephemeral refers to something lasting for a very short time.",
       "explanationinhindi": "क्षणभंगुर का अर्थ है कुछ ऐसा जो बहुत कम समय तक चले।"
     },
     {
       "id": 2,
       "word": "Meticulous",
-      "options": [
-        "Very careful and precise",
-        "Careless",
-        "Quick and hasty",
-        "Unimportant"
-      ],
-      "correct": 0,
+      "options": {
+        "a": "Quick and hasty",
+        "b": "Unimportant",
+        "c": "Very careful and precise",
+        "d": "Careless"
+      },
+      "correct": "c",
       "explanation": "Meticulous means showing great attention to detail; very careful and precise.",
       "explanationinhindi": "सूक्ष्म का अर्थ है बहुत ध्यान से और सटीकता से काम करना।"
     },
     {
       "id": 3,
       "word": "Obsolete",
-      "options": [
-        "No longer in use",
-        "New and innovative",
-        "Difficult to understand",
-        "Popular and trending"
-      ],
-      "correct": 0,
+      "options": {
+        "a": "Difficult to understand",
+        "b": "Popular and trending",
+        "c": "New and innovative",
+        "d": "No longer in use"
+      },
+      "correct": "d",
       "explanation": "Obsolete means no longer produced or used; out of date.",
       "explanationinhindi": "पुराना का अर्थ है अब उपयोग में न आना या अप्रचलित होना।"
     },
     {
       "id": 4,
       "word": "Apathetic",
-      "options": [
-        "Showing no interest or concern",
-        "Highly enthusiastic",
-        "Very emotional",
-        "Extremely angry"
-      ],
-      "correct": 0,
+      "options": {
+        "a": "Very emotional",
+        "b": "Extremely angry",
+        "c": "Showing no interest or concern",
+        "d": "Highly enthusiastic"
+      },
+      "correct": "c",
       "explanation": "Apathetic means showing or feeling no interest, enthusiasm, or concern.",
       "explanationinhindi": "उदासीन का अर्थ है कोई रुचि, उत्साह या चिंता न दिखाना।"
     },
     {
       "id": 5,
       "word": "Resilient",
-      "options": [
-        "Able to recover quickly",
-        "Easily broken",
-        "Weak and fragile",
-        "Unstable"
-      ],
-      "correct": 0,
+      "options": {
+        "a": "Weak and fragile",
+        "b": "Unstable",
+        "c": "Easily broken",
+        "d": "Able to recover quickly"
+      },
+      "correct": "d",
       "explanation": "Resilient means able to withstand or recover quickly from difficult conditions.",
       "explanationinhindi": "लचीला का अर्थ है कठिन परिस्थितियों से जल्दी उबरने में सक्षम।"
     },
     {
       "id": 6,
       "word": "Ambiguous",
-      "options": ["Unclear", "Precise", "Definite", "Obvious"],
-      "correct": 0,
+      "options": {
+        "a": "Definite",
+        "b": "Unclear",
+        "c": "Precise",
+        "d": "Obvious"
+      },
+      "correct": "b",
       "explanation": "Ambiguous means open to more than one interpretation; not clear.",
       "explanationinhindi": "अस्पष्ट का अर्थ है एक से अधिक व्याख्या के लिए खुला होना।"
     },
     {
       "id": 7,
       "word": "Ubiquitous",
-      "options": ["Everywhere", "Rare", "Limited", "Unknown"],
-      "correct": 0,
+      "options": {
+        "a": "Limited",
+        "b": "Everywhere",
+        "c": "Unknown",
+        "d": "Rare"
+      },
+      "correct": "b",
       "explanation": "Ubiquitous means present, appearing, or found everywhere.",
       "explanationinhindi": "सर्वव्यापी का अर्थ है हर जगह मौजूद होना।"
     },
     {
       "id": 8,
       "word": "Pragmatic",
-      "options": ["Practical", "Idealistic", "Theoretical", "Impractical"],
-      "correct": 0,
+      "options": {
+        "a": "Theoretical",
+        "b": "Impractical",
+        "c": "Practical",
+        "d": "Idealistic"
+      },
+      "correct": "c",
       "explanation": "Pragmatic means dealing with things sensibly and realistically.",
       "explanationinhindi": "व्यावहारिक का अर्थ है चीजों से समझदारी और यथार्थवादी ढंग से निपटना।"
     },
     {
       "id": 9,
       "word": "Pernicious",
-      "options": ["Harmful", "Beneficial", "Harmless", "Helpful"],
-      "correct": 0,
+      "options": {
+        "a": "Beneficial",
+        "b": "Helpful",
+        "c": "Harmless",
+        "d": "Harmful"
+      },
+      "correct": "d",
       "explanation": "Pernicious means having a harmful effect, especially in a gradual or subtle way.",
       "explanationinhindi": "घातक का अर्थ है हानिकारक प्रभाव डालना, विशेष रूप से धीरे-धीरे या सूक्ष्म रूप से।"
     },
     {
       "id": 10,
       "word": "Prolific",
-      "options": ["Productive", "Unproductive", "Scarce", "Rare"],
-      "correct": 0,
+      "options": {
+        "a": "Scarce",
+        "b": "Productive",
+        "c": "Rare",
+        "d": "Unproductive"
+      },
+      "correct": "b",
       "explanation": "Prolific means producing many works, results, or offspring.",
       "explanationinhindi": "उत्पादक का अर्थ है बहुत सारे काम, परिणाम या संतान उत्पन्न करना।"
+    },
+    {
+      "id": 11,
+      "word": "Procrastinate",
+      "options": {
+        "a": "Work quickly",
+        "b": "Stay organized",
+        "c": "Delay or postpone action",
+        "d": "Complete ahead of time"
+      },
+      "correct": "c",
+      "explanation": "Procrastinate means to delay or postpone action; put off doing something.",
+      "explanationinhindi": "टालमटोल करना का अर्थ है किसी काम को बाद के लिए टालना।"
+    },
+    {
+      "id": 12,
+      "word": "Authentic",
+      "options": {
+        "a": "Artificial",
+        "b": "Copied",
+        "c": "Fake",
+        "d": "Genuine and original"
+      },
+      "correct": "d",
+      "explanation": "Authentic means genuine, real, or true to its origin.",
+      "explanationinhindi": "प्रामाणिक का अर्थ है असली या मूल।"
+    },
+    {
+      "id": 13,
+      "word": "Crucial",
+      "options": {
+        "a": "Minor",
+        "b": "Very important",
+        "c": "Optional",
+        "d": "Unnecessary"
+      },
+      "correct": "b",
+      "explanation": "Crucial means decisive or critical, especially in the success or failure of something.",
+      "explanationinhindi": "महत्वपूर्ण का अर्थ है किसी चीज की सफलता या विफलता में निर्णायक।"
+    },
+    {
+      "id": 14,
+      "word": "Diverse",
+      "options": {
+        "a": "Identical",
+        "b": "Similar",
+        "c": "Very different",
+        "d": "Uniform"
+      },
+      "correct": "c",
+      "explanation": "Diverse means showing a great deal of variety; very different.",
+      "explanationinhindi": "विविध का अर्थ है बहुत अलग-अलग प्रकार का।"
+    },
+    {
+      "id": 15,
+      "word": "Efficient",
+      "options": {
+        "a": "Disorganized",
+        "b": "Working well without waste",
+        "c": "Wasteful",
+        "d": "Slow"
+      },
+      "correct": "b",
+      "explanation": "Efficient means achieving maximum productivity with minimum wasted effort.",
+      "explanationinhindi": "कुशल का अर्थ है बिना बर्बादी के अच्छी तरह से काम करना।"
+    },
+    {
+      "id": 16,
+      "word": "Flexible",
+      "options": {
+        "a": "Fixed",
+        "b": "Rigid",
+        "c": "Stubborn",
+        "d": "Easily adaptable"
+      },
+      "correct": "d",
+      "explanation": "Flexible means able to be easily modified or adaptable to change.",
+      "explanationinhindi": "लचीला का अर्थ है आसानी से बदलाव के अनुकूल होने में सक्षम।"
+    },
+    {
+      "id": 17,
+      "word": "Genuine",
+      "options": {
+        "a": "Artificial",
+        "b": "Sincere and honest",
+        "c": "Fake",
+        "d": "Insincere"
+      },
+      "correct": "b",
+      "explanation": "Genuine means truly what something is said to be; sincere.",
+      "explanationinhindi": "सच्चा का अर्थ है ईमानदार और वास्तविक।"
+    },
+    {
+      "id": 18,
+      "word": "Humble",
+      "options": {
+        "a": "Showy",
+        "b": "Proud",
+        "c": "Not proud or arrogant",
+        "d": "Boastful"
+      },
+      "correct": "c",
+      "explanation": "Humble means having or showing a modest estimate of one's own importance.",
+      "explanationinhindi": "विनम्र का अर्थ है अपने महत्व का विनयपूर्ण अनुमान रखना।"
+    },
+    {
+      "id": 19,
+      "word": "Innovative",
+      "options": {
+        "a": "Traditional",
+        "b": "New and creative",
+        "c": "Old-fashioned",
+        "d": "Common"
+      },
+      "correct": "b",
+      "explanation": "Innovative means featuring new methods; advanced and original.",
+      "explanationinhindi": "नवीन का अर्थ है नए और रचनात्मक तरीकों वाला।"
+    },
+    {
+      "id": 20,
+      "word": "Justify",
+      "options": {
+        "a": "Disapprove",
+        "b": "Condemn",
+        "c": "Reject",
+        "d": "Prove to be right"
+      },
+      "correct": "d",
+      "explanation": "Justify means to show or prove to be right or reasonable.",
+      "explanationinhindi": "उचित ठहराना का अर्थ है किसी बात को सही या तर्कसंगत साबित करना।"
     }
   ]
 }
