@@ -1,0 +1,109 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "word": "Ephemeral",
+      "options": [
+        "Lasting a short time",
+        "Highly intelligent",
+        "Extremely large",
+        "Visually appealing"
+      ],
+      "correct": 0,
+      "explanation": "Ephemeral refers to something lasting for a very short time.",
+      "explanationinhindi": "क्षणभंगुर का अर्थ है कुछ ऐसा जो बहुत कम समय तक चले।"
+    },
+    {
+      "id": 2,
+      "word": "Meticulous",
+      "options": [
+        "Very careful and precise",
+        "Careless",
+        "Quick and hasty",
+        "Unimportant"
+      ],
+      "correct": 0,
+      "explanation": "Meticulous means showing great attention to detail; very careful and precise.",
+      "explanationinhindi": "सूक्ष्म का अर्थ है बहुत ध्यान से और सटीकता से काम करना।"
+    },
+    {
+      "id": 3,
+      "word": "Obsolete",
+      "options": [
+        "No longer in use",
+        "New and innovative",
+        "Difficult to understand",
+        "Popular and trending"
+      ],
+      "correct": 0,
+      "explanation": "Obsolete means no longer produced or used; out of date.",
+      "explanationinhindi": "पुराना का अर्थ है अब उपयोग में न आना या अप्रचलित होना।"
+    },
+    {
+      "id": 4,
+      "word": "Apathetic",
+      "options": [
+        "Showing no interest or concern",
+        "Highly enthusiastic",
+        "Very emotional",
+        "Extremely angry"
+      ],
+      "correct": 0,
+      "explanation": "Apathetic means showing or feeling no interest, enthusiasm, or concern.",
+      "explanationinhindi": "उदासीन का अर्थ है कोई रुचि, उत्साह या चिंता न दिखाना।"
+    },
+    {
+      "id": 5,
+      "word": "Resilient",
+      "options": [
+        "Able to recover quickly",
+        "Easily broken",
+        "Weak and fragile",
+        "Unstable"
+      ],
+      "correct": 0,
+      "explanation": "Resilient means able to withstand or recover quickly from difficult conditions.",
+      "explanationinhindi": "लचीला का अर्थ है कठिन परिस्थितियों से जल्दी उबरने में सक्षम।"
+    },
+    {
+      "id": 6,
+      "word": "Ambiguous",
+      "options": ["Unclear", "Precise", "Definite", "Obvious"],
+      "correct": 0,
+      "explanation": "Ambiguous means open to more than one interpretation; not clear.",
+      "explanationinhindi": "अस्पष्ट का अर्थ है एक से अधिक व्याख्या के लिए खुला होना।"
+    },
+    {
+      "id": 7,
+      "word": "Ubiquitous",
+      "options": ["Everywhere", "Rare", "Limited", "Unknown"],
+      "correct": 0,
+      "explanation": "Ubiquitous means present, appearing, or found everywhere.",
+      "explanationinhindi": "सर्वव्यापी का अर्थ है हर जगह मौजूद होना।"
+    },
+    {
+      "id": 8,
+      "word": "Pragmatic",
+      "options": ["Practical", "Idealistic", "Theoretical", "Impractical"],
+      "correct": 0,
+      "explanation": "Pragmatic means dealing with things sensibly and realistically.",
+      "explanationinhindi": "व्यावहारिक का अर्थ है चीजों से समझदारी और यथार्थवादी ढंग से निपटना।"
+    },
+    {
+      "id": 9,
+      "word": "Pernicious",
+      "options": ["Harmful", "Beneficial", "Harmless", "Helpful"],
+      "correct": 0,
+      "explanation": "Pernicious means having a harmful effect, especially in a gradual or subtle way.",
+      "explanationinhindi": "घातक का अर्थ है हानिकारक प्रभाव डालना, विशेष रूप से धीरे-धीरे या सूक्ष्म रूप से।"
+    },
+    {
+      "id": 10,
+      "word": "Prolific",
+      "options": ["Productive", "Unproductive", "Scarce", "Rare"],
+      "correct": 0,
+      "explanation": "Prolific means producing many works, results, or offspring.",
+      "explanationinhindi": "उत्पादक का अर्थ है बहुत सारे काम, परिणाम या संतान उत्पन्न करना।"
+    }
+  ]
+}
